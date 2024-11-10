@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+/* Estilo global de fondo */
+html, body {
+    background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    height: 100%;
+    align-content: center;
+}
+
+/* Tarjeta principal */
+.card {
+    height: 370px;
+    margin: auto;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    transition: transform 0.2s;
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Iconos de redes sociales */
+.social_icon {
+    position: absolute;
+    right: 20px;
+    top: -45px;
+}
+
+.social_icon span {
+    font-size: 60px;
+    margin-left: 10px;
+    color: #FFC312;
+    cursor: pointer;
+}
+
+.social_icon span:hover {
+    color: white;
+}
+
+/* Encabezado de la tarjeta */
+.card-header h3 {
+    color: white;
+}
+
+/* Entrada de grupo de iconos */
+.input-group-prepend span {
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border: 0 !important;
+}
+
+input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Checkbox de recordar */
+.remember {
+    color: white;
+}
+
+.remember input {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px 0 15px;
+}
+
+/* Botón de inicio de sesión */
+.login_btn {
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+}
+
+.login_btn:hover {
+    background-color: white;
+}
+
+/* Enlaces de la tarjeta */
+.links {
+    color: white;
+}
+
+.links a {
+    margin-left: 4px;
+}
+
+/* Botones de redes sociales en la parte inferior */
+.social-links {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.social-links p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.social-btn {
+    display: inline-block;
+    color: #000;
+    background-color: #FFC312;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.social-btn:hover {
+    background-color: #ffda7c;
+    color: #000;
+}
